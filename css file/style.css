@@ -1,0 +1,91 @@
+nav h1{
+    color:brown;
+    font-size: 30px;
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap:400px
+}
+nav ul li{
+    list-style: none;
+ display: inline;
+ margin-right: 20px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border:none;
+    border-radius: 50px;
+    padding: 2px;
+   
+    
+}
+a:hover{
+    background-color: rgb(125, 125, 238);
+    cursor: grabbing;
+}
+.main-div-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 15px;
+    margin: 80px;
+}
+img{
+    border-radius: 25px;
+    align-items: center;
+}
+h4{
+    text-align: center;
+
+}
+.h4{
+    margin-right: 50px;
+ 
+}
+button{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+button:hover{
+    background-color:cadetblue
+}
+.num4{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.num1{
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(207, 232, 164);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px;
+}
+.no{
+    text-align: center;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.sic-2{
+    background-color: rgb(207, 195, 180);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 50px;
+}
+body{
+    background-color: rgb(182, 188, 186);
+}
+.pagla{
+    text-align: center;
+    background-color: rgb(109, 96, 96);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 30px;
+}
