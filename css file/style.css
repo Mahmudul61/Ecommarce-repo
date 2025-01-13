@@ -89,3 +89,9 @@ body{
     padding: 30px;
     border-radius: 30px;
 }
+/*media curray */
+@media screen and (max-width:393px) {
+    .pagla{
+        background-color: aqua;
+    }
+} 
