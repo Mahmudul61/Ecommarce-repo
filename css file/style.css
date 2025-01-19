@@ -5,8 +5,8 @@ nav h1{
 }
 nav{
     display: flex;
-    justify-content: center;
-    gap:400px
+    justify-content: space-between;
+    
 }
 nav ul li{
     list-style: none;
@@ -24,7 +24,7 @@ nav ul li a{
     
 }
 a:hover{
-    background-color: rgb(125, 125, 238);
+    background-color: rgb(128, 237, 160);
     cursor: grabbing;
 }
 .main-div-1{
@@ -88,10 +88,22 @@ body{
     margin: 30px;
     padding: 30px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 /*media curray */
-@media screen and (max-width:393px) {
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+    }
+    .main-div-1{
+        flex-direction: column;
+       
+    }
     .pagla{
-        background-color: aqua;
+        flex-direction: column;
     }
 } 
